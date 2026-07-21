@@ -378,32 +378,10 @@ export default function App() {
       {/* ── MASTHEAD ── */}
       <div style={{ background: C.red }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", padding: "13px 20px", display: "flex", alignItems: "center", gap: 18, flexWrap: "wrap" }} className="masthead-inner">
-          {/* Logo — clean SVG recreation of official FBiSD wordmark */}
-          <div style={{ display: "flex", alignItems: "center", gap: 0, flexShrink: 0 }}>
-            <svg viewBox="0 0 310 68" style={{ height: 52, width: "auto" }} aria-label="FBiSD — Inspire Equip Imagine">
-              {/* ── Wordmark: FB ── */}
-              <text x="0" y="50" fontFamily="'Arial Black', 'Helvetica Neue', Arial, sans-serif"
-                fontSize="56" fontWeight="900" fill="#ffffff" letterSpacing="-1">FB</text>
-              {/* ── Lowercase i (no dot — star replaces it) ── */}
-              <text x="116" y="50" fontFamily="'Arial Black', 'Helvetica Neue', Arial, sans-serif"
-                fontSize="48" fontWeight="900" fill="#ffffff">i</text>
-              {/* ── 5-pointed star above the i ── */}
-              <polygon
-                points="130,3 133.5,13.5 144.5,13.5 136,20 139.5,30.5 130,24 120.5,30.5 124,20 115.5,13.5 126.5,13.5"
-                fill="#ffffff" />
-              {/* ── SD ── */}
-              <text x="148" y="50" fontFamily="'Arial Black', 'Helvetica Neue', Arial, sans-serif"
-                fontSize="56" fontWeight="900" fill="#ffffff" letterSpacing="-1">SD</text>
-              {/* ── Tagline ── */}
-              <text x="1" y="64" fontFamily="'Google Sans Flex', Arial, sans-serif"
-                fontSize="9.5" fill="rgba(255,255,255,0.55)" letterSpacing="3.8"
-                fontWeight="400">INSPIRE • EQUIP • IMAGINE</text>
-            </svg>
-            {/* ── Divider + site title ── */}
-            <div style={{ marginLeft: 18, paddingLeft: 18, borderLeft: "1px solid rgba(255,255,255,0.2)" }}>
-              <div style={{ fontFamily: "'Changa One', sans-serif", color: "#fff", fontSize: 18, letterSpacing: 0.5, lineHeight: 1 }}>HR Intelligence</div>
-              <div style={{ color: "rgba(255,255,255,0.5)", fontSize: 9.5, letterSpacing: 2, textTransform: "uppercase", marginTop: 3, fontFamily: "'Google Sans Flex', sans-serif" }}>Human Resources Division</div>
-            </div>
+          {/* Site title — logo removed per design update */}
+          <div style={{ flexShrink: 0 }}>
+            <div style={{ fontFamily: "'Changa One', sans-serif", color: "#fff", fontSize: 22, letterSpacing: 0.5, lineHeight: 1 }}>HR Intelligence</div>
+            <div style={{ color: "rgba(255,255,255,0.55)", fontSize: 9.5, letterSpacing: 2.5, textTransform: "uppercase", marginTop: 3, fontFamily: "'Google Sans Flex', sans-serif" }}>Fort Bend ISD · Human Resources Division</div>
           </div>
 
           {/* Search */}
